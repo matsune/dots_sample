@@ -1,6 +1,18 @@
 targets:
   - name: zshrc
-    dst: ~/go/src/github.com/matsune/dots/.zshrc
+    dst: /tmp/.zshrc
     file: .zshrc
+
+  - name: zshrc
+    dst: /tmp/.zshrc
+    file: .zshrc_mac
+    tags:
+      - mac
+
+  - name: zshrc
+    dst: /tmp/.zshrc
+    file: .zshrc_linux
+      - linux
+
 sub:
   - ./zprofile

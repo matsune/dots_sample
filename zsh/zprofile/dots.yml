@@ -1,4 +1,4 @@
 targets:
   - name: zprofile
     file: .zprofile
-    dst: ~/go/src/github.com/matsune/dots/.zprofile
+    dst: /tmp/.zprofile
